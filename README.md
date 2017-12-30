@@ -17,7 +17,7 @@ A beautifull and powerfull theme of hugo static blog generator.
 5. Chinese keyword search(using `lunr` and `nodejieba`)  
 
 
-## Installation
+## Install
 
 ```
 cd /your-blog-path/theme
@@ -29,3 +29,8 @@ then update your `config.toml` file with the help of the `exampleSite/config.tom
 
 
 refer to <https://gohugo.io/themes/> for more info.
+
+
+## Add Chinese Search 
+
+lunr isn't support Chinese search by default, the Chinese segmentation algorithm is too large to serve in the web. so we should preprocess it and provide a handled index file directly. using my script : [hugo-lunr-zh](https://github.com/stkevintan/hugo-lunr-zh) to auto generator the index file after running `hugo` command.
