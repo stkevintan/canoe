@@ -31,6 +31,5 @@ then update your `config.toml` file with the help of the `exampleSite/config.tom
 refer to <https://gohugo.io/themes/> for more info.
 
 
-## Add Chinese Search 
-
-lunr isn't support Chinese search by default, the Chinese segmentation algorithm is too large to serve in the web. so we should preprocess it and provide a handled index file directly. using my script : [hugo-lunr-zh](https://github.com/stkevintan/hugo-lunr-zh) to auto generator the index file after running `hugo` command.
+## Enable Search
+My theme use [lunr](https://lunrjs.com/) to search keywords, so you need using [hugo-lunr](https://www.npmjs.com/package/hugo-lunr) to generate lunr index file every time after building your site. If you need Chinese support, use my tool:  [hugo-lunr-zh](https://www.npmjs.com/package/hugo-lunr-zh) instead. Plese refer to [official doc](https://gohugo.io/tools/search/#readout) for more info.
