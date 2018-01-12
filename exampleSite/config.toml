@@ -106,3 +106,6 @@ hasCJKLanguage = true
   pre = "<svg class='svg-icons svg-icons-sina-weibo'><use xlink:href='#svg-icons-sina-weibo'></use></svg>"
   name = "Weibo"
   url = "http://weibo.com/kevinclasky"
+
+[blackfriday]
+  extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock","hardLineBreak"]
