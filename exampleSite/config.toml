@@ -108,4 +108,4 @@ hasCJKLanguage = true
   url = "http://weibo.com/kevinclasky"
 
 [blackfriday]
-  extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock","hardLineBreak"]
+  extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock"]
